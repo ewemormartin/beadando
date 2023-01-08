@@ -1,0 +1,101 @@
+body{
+    background-color:#282828;
+    color: white;
+    text-align: center;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+    justify-content: space-evenly;
+    max-width: 1000px;
+    margin: auto;
+    padding-bottom: 200px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.menu li{
+    text-align: center;
+    list-style-type: none;
+}
+.menu ul{
+    margin: 0;
+    padding-left: 0;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    max-width: 50%;
+}
+
+.elso li{
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+.masodik li{
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+.harmadik li{
+    text-align: left;
+    padding-bottom: 10px;
+}
+.elso img{
+    width: 200px;
+}
+
+.masodik img{
+    width: 200px;
+}
+
+.masodik{
+    border-right: 2px solid red;
+    border-left: 2px solid red;
+}
+
+.harmadik img{
+    width: 200px;
+}
+
+.harmadik h2{
+    text-align: center;
+}
+
+
+
+
+
+
+ul {
+    list-style-image: url('');
+  }
+
+  .folyamatkep img{
+    max-width: 120%;
+}
+
+.folyamatelso h1{
+    border-bottom: 2px solid red;
+}
+
+.folyamatelso{
+    text-align: left;
+}
+
+
+.abra{
+    display: grid;
+    grid-template-columns: auto auto;
+    text-align: center;
+    justify-content: space-evenly;
+    max-width: 1000px;
+    margin: auto;
+}
+
+
